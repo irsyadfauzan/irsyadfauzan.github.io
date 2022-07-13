@@ -1,0 +1,132 @@
+/*untuk navigasi atas*/
+.topnav {
+    overflow:hidden;
+    background-color:black;
+    vertical-align:middle;
+}
+.topnav a {
+    float:left;
+    display:block;
+    color:white;
+    text-align:center;
+    padding:10px;
+    font-size:20px;
+}
+.topnav input[type=text] {
+    float:right;
+    padding:6px;
+    margin-top:8px;
+    margin-right:16px;
+}
+
+.searchicon {
+    max-width:30px;
+    max-height:30px;
+    float:right;
+    display:block;
+    margin-top:8px;
+    margin-right:5px;
+    border-radius:0px;
+}
+
+
+.sticky {
+    position:fixed;
+    top: 0;
+    width: 100%;
+}
+
+h1 {
+    color:black;
+    background-color:white;
+    text-align:center;
+    margin-top:0px;
+    margin-bottom:0px;
+    padding:20px;
+}
+
+h2 {
+    color :red;
+    text-align:center;
+}
+/*untuk gambar*/
+.gambartengah {
+    display:block;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.gambargrid {
+    width:150px;
+    height:150px;
+    border-radius:50%;
+}
+
+.banner {
+    display:block;
+    max-width:98%;
+    border-radius:20px;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:10px;
+}
+
+body {
+    background-color:aliceblue;
+    max-width: 100%;
+    font-family:Montserrat;
+    margin:0px;
+}
+/*untuk grid*/
+.grid-container {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    background-color:lightsteelblue;
+    padding: 0px;
+}
+
+.grid-item {
+    background-color:white;
+    padding:10px;
+    margin: 20px;
+    font-size:20px;
+    text-align:center;
+    border-radius:12px;      
+}
+
+.atasnyagrid {
+    margin:0px;
+    padding:10px;
+    background-color:lightsteelblue;
+}
+
+.atas {
+    margin:10px
+}
+.bawah{
+    margin:10px
+}
+
+.kaki {
+    margin:0px;
+    padding:10px;
+    background-color:black;
+    color:white;
+}
+/*untuk link*/
+a:link {
+    color:lightslategrey;
+}
+
+.links a:hover {
+    color:aquamarine;
+}
+.links a:visited {
+    color:white;
+}
+
+
+/*untuk lain lain*/
+.oren {
+    color:darkorange;
+}
