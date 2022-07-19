@@ -19,6 +19,14 @@
     margin-right:16px;
 }
 
+.bunglon {
+    background-color:rgba(255,255,255,.7);
+}
+
+.bunglon a {
+    color:black;
+}
+
 .searchicon {
     max-width:30px;
     max-height:30px;
