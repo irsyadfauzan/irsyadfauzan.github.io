@@ -7,10 +7,6 @@
     <title>anak setan</title>
     <!-- aku ga ngatain kamu loh hehe-->
     <link rel="stylesheet" href="style 1.css">
-    <script>
-        let d = new Date()
-        alert("halo gaes hariini adalah " + d)
-    </script>
 </head>
 <body>
     <h1>Hello World, halaman ini merupakan halaman <span class="oren">pengetesan</span> pembuatan website newbie dari Irsyad Fauzan</h1>
@@ -76,11 +72,6 @@
         <input type="text">
     </form>
     <button onclick="jangan()">send</button>
-    <script>
-        function jangan(){
-            alert("ya jangan dong");
-        }
-    </script>
     <button type="button" disabled>alahsiaboy</button>
     </div>
 
@@ -95,11 +86,6 @@
             <input type="number" placeholder="####">
         </form>
         <button onclick="tombol()">send</button>
-        <script>
-        function tombol(){
-            alert("Benar!");
-        }
-        </script>
     </div>
     <br>
     <br>
@@ -113,10 +99,20 @@
     function adada() {
         if (window.pageYOffset > sticky) {
             header.classList.add("sticky");
+            header.classList.add("bunglon");
         } else {
             header.classList.remove("sticky");
+            header.classList.remove("bunglon");
         }
     }
+    function jangan(){
+        alert("ya jangan dong");
+    }
+    function tombol(){
+        alert("Benar!");
+    }
+    let d = new Date()
+    alert("halo gaes hariini adalah " + d)
     </script>
 
 </body>
