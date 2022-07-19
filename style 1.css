@@ -102,6 +102,39 @@ body {
     border-radius:12px;      
 }
 
+@media screen and (max-width:1100px) {
+    .grid-container {
+        display:grid;
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+    .grid-item {
+        font-size:15px;
+        margin:10px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .grid-container {
+        display:grid;
+        grid-template-columns: 33% 33% 33%;
+    }
+    .grid-item {
+        font-size:12px;
+        margin:9px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .grid-container {
+        display:grid;
+        grid-template-columns: 50% 50%;
+    }
+    .grid-item {
+        font-size:10px;
+        margin:7px;
+    }
+}
+
 .atasnyagrid {
     margin:0px;
     padding:10px;
